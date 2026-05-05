@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\dev\\\\projects\\\\butterssoft\\\\css\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\dev\\\\projects\\\\butterssoft\\\\js\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\dev\\\\projects\\\\butterssoft\\\\assets\\\\images\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\dev\\\\projects\\\\butterssoft\\\\games\")"
+    ]
+  }
+}
