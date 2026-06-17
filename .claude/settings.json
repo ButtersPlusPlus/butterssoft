@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(python -m http.server 7823)",
+      "Bash(npx --yes playwright@latest install chromium --with-deps)",
+      "Bash(node -e ' *)",
+      "Read(//c/Users/butte/AppData/Local/Temp/**)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(pkill -f \"python -m http.server 7823\")"
+    ]
+  }
+}
