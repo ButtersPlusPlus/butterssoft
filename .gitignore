@@ -6,6 +6,9 @@ desktop.ini
 # Editor
 .vscode/settings.json
 
+# Claude Code / agent config (local-only)
+.claude/
+
 # Deps (if you ever add a build step)
 node_modules/
 
