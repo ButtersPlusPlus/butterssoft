@@ -158,7 +158,14 @@ img { display: block; max-width: 100%; }
   padding: 5rem 0;
 }
 
+.games-subsections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
 .games-subsection {
+  flex: 1 1 300px;
   margin-bottom: 3.5rem;
 }
 
@@ -172,13 +179,15 @@ img { display: block; max-width: 100%; }
 }
 
 .games-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--gap);
 }
 
 /* ── Game Card ── */
 .game-card {
+  flex: 1 1 280px;
+  max-width: 360px;
   background: var(--clr-card-bg);
   border: 1px solid var(--clr-border);
   border-radius: var(--radius);
