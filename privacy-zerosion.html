@@ -60,9 +60,14 @@
           <li>Your device's advertising identifier (e.g. the Android Advertising ID or Apple's Identifier for Advertisers / IDFA), used to deliver and, with your consent, personalize advertisements</li>
         </ul>
         <p>The Application does not gather precise information about the location of your mobile device.</p>
-        <p>When you choose to submit a score to the global leaderboard, the Application collects and stores your chosen display initials (up to 3 characters), your score, the difficulty level, and the timestamp of submission. This information is stored in a cloud database and is publicly visible to all users of the Application. Leaderboard submission is entirely voluntary.</p>
-        <p>The Application uses anonymous authentication to assign a temporary session identifier. This identifier is not linked to any personal information and is used solely to facilitate leaderboard submissions.</p>
+        <p>When you choose to submit a score to the global leaderboard, the Application collects and stores your chosen display initials (up to 3 characters), your score, the difficulty level, and the timestamp of submission. This information is stored in Google Cloud Firestore (a Firebase service) and is publicly visible to all users of the Application. Leaderboard submission is entirely voluntary.</p>
+        <p>The Application uses Firebase Authentication to assign a temporary, anonymous session identifier. This identifier is not linked to any personal information and is used solely to facilitate leaderboard submissions.</p>
         <p>The Application also stores game settings and high scores locally on your device. This data does not leave your device unless you voluntarily submit a score to the global leaderboard.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Purchases</h2>
+        <p>The Application offers optional in-app purchases, including consumable items (such as power-ups) and non-consumable items (such as ad removal and additional gameplay options). All payments are processed by the platform's app store (Google Play Billing on Android and Apple's App Store / StoreKit on iOS) under their own privacy policies; the Service Provider does not collect or store your payment card details. The Application stores a record of your purchases and entitlements (for example, owned items and remaining credits) locally on your device so that your purchases can be applied within the game.</p>
       </section>
 
       <section class="legal-section">
@@ -80,6 +85,8 @@
         <ul>
           <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
           <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+          <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase (Cloud Firestore and Firebase Authentication)</a></li>
+          <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play Billing</a> / <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple App Store</a> (for in-app purchases)</li>
         </ul>
         <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
         <ul>
