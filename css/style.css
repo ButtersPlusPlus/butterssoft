@@ -358,6 +358,10 @@ img { display: block; max-width: 100%; }
   background: rgba(13, 15, 20, 0.62);
 }
 
+.hero-video-overlay-dark {
+  background: rgba(13, 15, 20, 0.82);
+}
+
 .game-page-hero-inner {
   position: relative;
   z-index: 2;
