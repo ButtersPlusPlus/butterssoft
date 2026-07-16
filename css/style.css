@@ -160,12 +160,11 @@ img { display: block; max-width: 100%; }
 
 .games-subsections {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--gap);
+  flex-direction: column;
 }
 
 .games-subsection {
-  flex: 1 1 300px;
+  width: 100%;
   margin-bottom: 3.5rem;
 }
 
