@@ -553,6 +553,28 @@ img { display: block; max-width: 100%; }
   border: 1px solid var(--clr-border);
 }
 
+.coming-soon-placeholder {
+  background: var(--clr-card-bg);
+  color: var(--clr-muted);
+  text-align: center;
+}
+
+.video-wrapper.coming-soon-placeholder p {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.screenshots-grid.coming-soon-placeholder {
+  display: block;
+  padding: 3rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+}
+
 .video-wrapper iframe {
   position: absolute;
   inset: 0;
