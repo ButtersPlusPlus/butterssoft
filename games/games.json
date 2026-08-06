@@ -1,0 +1,31 @@
+{
+  "games": [
+    {
+      "id": "zerosion",
+      "name": "Zerosion",
+      "tagline": "Use numbered blocks to sum lines and squares to zero.",
+      "iconUrl": "https://butterssoft.com/assets/images/zerosion.png",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.butterssoft.zerosion",
+      "appStoreUrl": "",
+      "excludeAppId": "com.butterssoft.zerosion"
+    },
+    {
+      "id": "conspintrix",
+      "name": "Conspintrix",
+      "tagline": "Rotate circles to clear columns on the music's beat.",
+      "iconUrl": "https://butterssoft.com/assets/images/conspintrix.png",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.butterssoft.concentrix",
+      "appStoreUrl": "",
+      "excludeAppId": "com.butterssoft.concentrix"
+    },
+    {
+      "id": "cubiclear",
+      "name": "CubiClear",
+      "tagline": "Slide a piece, clear the cube.",
+      "iconUrl": "https://butterssoft.com/assets/images/cubiclear.png",
+      "playStoreUrl": "",
+      "appStoreUrl": "",
+      "excludeAppId": "com.butterssoft.cubiclear"
+    }
+  ]
+}
