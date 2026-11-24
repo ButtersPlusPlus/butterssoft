@@ -5,7 +5,7 @@
             "label": "Serve",
             "type": "shell",
             "command": "npx",
-            "args": ["serve", ".", "-p", "8080", "--no-clipboard"],
+            "args": ["--yes", "serve", ".", "-p", "8080", "--no-clipboard"],
             "isBackground": true,
             "problemMatcher": {
                 "pattern": { "regexp": "^$" },

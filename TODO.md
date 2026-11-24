@@ -1,8 +1,7 @@
 # TODO
 
-- **Necroshambo:** `legal/privacy-necroshambo.html` and `legal/terms-necroshambo.html` exist but are not yet linked from anywhere. When starting the actual Necroshambo game page, per the "Adding a new game" steps in `CLAUDE.md`:
-  - Create `necroshambo/index.html`
-  - Add necroshambo icon at `assets/images/necroshambo.png`, and point the `.legal-game-label` icon in both legal pages at it (currently falling back to the site logo)
-  - Add Necroshambo to `legal/index.html`'s Games section
-  - Add Necroshambo's card to `index.html`'s games grid and its `@graph` structured-data block
-  - Add the two legal links (Privacy Policy / Terms of Service) to the Necroshambo page footer
+- **Necroshambo:** the game page (`necroshambo/index.html`) and homepage card/structured data are done. Remaining, per the "Adding a new game" steps in `CLAUDE.md`:
+  - Add Necroshambo to `legal/index.html`'s Games section (one `<li>` with both links)
+  - Point `iconUrl` in `games/games.json` at `necroshambo.png` (still Zerosion's)
+  - Page placeholders: screenshots, gameplay video, fact sheet Engine and Release Date
+  - Add the App Store link everywhere once the iOS release is live

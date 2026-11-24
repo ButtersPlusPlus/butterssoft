@@ -75,8 +75,34 @@
       },
       "iconUrl": "https://butterssoft.com/assets/images/cubiclear.png",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.butterssoft.cubiclear",
-      "appStoreUrl": "",
+      "appStoreUrl": "https://apps.apple.com/us/app/cubiclear-3d-puzzle-slide-out/id6804629200",
       "excludeAppId": "com.butterssoft.cubiclear"
+    },
+    {
+      "id": "necroshambo",
+      "name": "Necroshambo",
+      "tagline": {
+        "en": "Play Rock-Paper-Scissors 'til your hands fall off.",
+        "ar": "العب حجر ورقة مقص حتى تتساقط يداك.",
+        "de": "Spiel Schere, Stein, Papier, bis dir die Hände abfallen.",
+        "es": "Juega a piedra, papel o tijera hasta que se te caigan las manos.",
+        "fr": "Jouez à pierre-feuille-ciseaux jusqu'à ce que vos mains tombent.",
+        "hi": "पत्थर-कागज़-कैंची तब तक खेलें जब तक आपके हाथ गिर न जाएं।",
+        "id": "Mainkan Batu-Gunting-Kertas sampai tanganmu copot.",
+        "it": "Gioca a sasso-carta-forbici finché non ti cadono le mani.",
+        "ja": "手が落ちるまでじゃんけんを続けよう。",
+        "ko": "손이 떨어져 나갈 때까지 가위바위보를 하세요.",
+        "nl": "Speel steen-papier-schaar tot je handen eraf vallen.",
+        "pt": "Jogue pedra-papel-tesoura até suas mãos caírem.",
+        "ru": "Играйте в камень-ножницы-бумагу, пока руки не отвалятся.",
+        "tr": "Ellerin düşene kadar Taş-Kâğıt-Makas oyna.",
+        "vi": "Chơi oẳn tù tì cho đến khi rụng cả tay.",
+        "zh": "玩猜拳玩到手都掉下来。"
+      },
+      "iconUrl": "https://butterssoft.com/assets/images/zerosion.png",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.butterssoft.necroshambo",
+      "appStoreUrl": "",
+      "excludeAppId": "com.butterssoft.necroshambo"
     }
   ]
 }
