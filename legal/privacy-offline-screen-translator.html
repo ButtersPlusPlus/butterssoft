@@ -34,7 +34,7 @@
     <div class="legal-hero">
       <div class="container">
         <h1 class="legal-title">Offline Screen Translator Privacy Policy</h1>
-        <p class="legal-meta">Effective: <time datetime="2026-07-16">July 16, 2026</time></p>
+        <p class="legal-meta">Effective: <time datetime="2026-11-26">November 26, 2026</time></p>
       </div>
     </div>
 
@@ -42,33 +42,117 @@
 
       <section class="legal-section">
         <h2>Introduction</h2>
-        <p>This application provides on-device text recognition and translation of content displayed on the user's screen.</p>
+        <p>Offline Screen Translator recognizes and translates text in on-screen content and camera images. It runs on Android and on iOS and iPadOS. This policy covers all of these versions and notes where they differ. Some features require Premium.</p>
+        <p>The app does not require an account.</p>
       </section>
 
       <section class="legal-section">
-        <h2>Screen Capture</h2>
-        <p>The app uses Android screen capture functionality only after the user grants permission. Captured screen content is processed locally on the device to identify and translate text.</p>
+        <h2>Summary</h2>
+        <ul>
+          <li>Text recognition and translation happen on your device.</li>
+          <li>We do not receive your screen captures, photos, camera images, recognized text, or translations.</li>
+          <li>Google ML Kit, which the app uses for text recognition and translation, sends Google diagnostic and usage information, described below.</li>
+          <li>The app shows no advertising and does not track you across other apps or websites.</li>
+        </ul>
       </section>
 
       <section class="legal-section">
-        <h2>On-Device Processing</h2>
-        <p>Translation and text recognition are performed using Google ML Kit technologies and locally stored language resources. Screen captures, recognized text, and translation results are not transmitted to the developer's servers.</p>
-        <p>The app connects to the internet solely to download language packs required for offline translation via Google ML Kit. This connection does not transmit any personal information, screen content, or usage data.</p>
+        <h2>Screen Capture on Android</h2>
+        <p>The app captures your screen only after you grant permission through the Android system prompt. Depending on your settings, Android asks once each time you start the translator or before each translation.</p>
+        <ul>
+          <li>By default, a capture is translated when you tap the floating button.</li>
+          <li>If you turn on Auto-translate on scroll (Premium, off by default), the app watches the screen on your device while the floating button is waiting, and captures and translates it without a tap whenever the screen changes and then stops moving. Turn the setting off or stop the translator to end this.</li>
+        </ul>
+        <p>A capture can include anything visible on your screen at that moment, such as messages or notifications. Some apps block screen capture, and the app cannot read their content.</p>
       </section>
 
       <section class="legal-section">
-        <h2>Data Collection</h2>
-        <p>The app does not collect, store, sell, or share personal information, screenshots, recognized text, translation results, or usage data.</p>
+        <h2>Screen Translation on iOS and iPadOS</h2>
+        <p>You can translate a single screenshot by choosing it in the app or sending it to the app from the Share menu.</p>
+        <p>Live screen translate (Premium) uses an Apple screen broadcast that you start yourself and confirm in the system prompt. While the broadcast is running, <strong>everything on your screen is captured</strong>, including notifications, messages, and any other app you open. The app detects on your device when the screen stops moving, then translates that image without a tap and shows the result in a Picture-in-Picture window. The broadcast is not sent to us or to any server.</p>
+        <p>Each screen translated this way is saved to your history in the app. Avoid displaying passwords or other private information while the broadcast is running.</p>
+        <p>To stop capture, end the broadcast using the red indicator at the top of the screen or Control Center. <strong>Closing the Picture-in-Picture window alone does not end the broadcast.</strong></p>
       </section>
 
       <section class="legal-section">
-        <h2>Display Over Other Apps Permission</h2>
-        <p>The "Display over other apps" permission is used solely to display translation results over other applications.</p>
+        <h2>Camera</h2>
+        <p>Live Camera (Premium) uses your camera, with your permission, to read and translate text. The camera is used only for this feature while it is open. Live camera images are processed on your device and are not saved. If you take a still photo, it is added to your history only if you choose to save it.</p>
       </section>
 
       <section class="legal-section">
-        <h2>Advertising &amp; Analytics</h2>
-        <p>The app does not display advertisements and does not use analytics or tracking technologies.</p>
+        <h2>Photos and Saved Images</h2>
+        <p>On iOS and iPadOS, you can choose an image to translate using the system photo picker. The app receives only the image you choose and does not need access to the rest of your photo library.</p>
+        <p>When you choose to save a translated image to your device&rsquo;s gallery or photo library, the app adds it there, asking for permission where your device requires it. On iOS and iPadOS, the app requests permission only to add photos. Saved images stay in your gallery or photo library until you delete them, and any photo syncing or backup service you use may copy them.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>On-Device Processing and Temporary Files</h2>
+        <p>Text recognition, language identification, and translation are performed on your device using Google ML Kit and downloaded language packs. Screen captures, images, recognized text, and translation results are not sent to our servers, and Google states that ML Kit does not send this content or its results to Google.</p>
+        <p>To process an image, the app may keep a temporary working copy in its private storage on your device. Temporary copies can remain until they are replaced, or until you or your device clears them. On iOS and iPadOS, the working copy of the latest screen from a live broadcast is deleted when the broadcast ends, and the copy made when you share an image to the app is deleted after the app opens it.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Translation History</h2>
+        <p>With Premium, the app keeps a history on your device. Each entry holds the image, the recognized and translated text, the languages, and the date and time. Translations of screen captures and screenshots are added automatically. Still photos from Live Camera are added only when you save them. We cannot access your history.</p>
+        <ul>
+          <li>Unlocked entries older than 30 days are removed the next time you open History.</li>
+          <li>Locked entries are kept until you unlock and delete them. Saving a history entry to your gallery or photo library, or saving a Live Camera photo, locks the entry.</li>
+          <li>You can delete unlocked entries one at a time or all together. Unlock an entry before deleting it.</li>
+          <li>Uninstalling the app removes its history from your device. If your Premium access ends, saved entries remain on the device until you uninstall the app or clear its data.</li>
+        </ul>
+      </section>
+
+      <section class="legal-section">
+        <h2>Settings and Device Backups</h2>
+        <p>The app stores your settings, free-tier usage counts, and Premium status on your device. Depending on your device settings, app data, including history, may be included in device backups, such as Google backup on Android or iCloud and computer backups on iOS and iPadOS. We do not have access to those backups.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Information Collected by Google ML Kit</h2>
+        <p>Although your content stays on your device, ML Kit sends Google information about how it performs and is used. According to Google, this includes:</p>
+        <ul>
+          <li>Device information, such as manufacturer, model, and operating system version.</li>
+          <li>App information, such as the app&rsquo;s identifier and version.</li>
+          <li>Device or per-installation identifiers.</li>
+          <li>Performance measurements, feature settings and versions, such as image format and size, event types, and error codes.</li>
+          <li>The languages identified, and the source and target languages used for translation.</li>
+        </ul>
+        <p>Google uses this information for diagnostics and usage analytics, including to measure, debug, maintain, and improve ML Kit and to detect misuse. ML Kit may also contact Google to receive fixes, updated models, and device compatibility information. Google handles this information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For details, see Google&rsquo;s ML Kit data disclosures for <a href="https://developers.google.com/ml-kit/android-data-disclosure">Android</a> and <a href="https://developers.google.com/ml-kit/ios-data-disclosure">iOS</a>, and the <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a>.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Internet Use</h2>
+        <p>Translation works offline once the required language packs are on your device. The app and the services it relies on use the internet to download language packs from Google, to send the ML Kit information described above, and to handle purchases and other app store features. As with any internet connection, the receiving service can see technical information such as your IP address. Your screen content, images, and translated text are not included in these connections by the app.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Purchases and App Store Services</h2>
+        <p>Purchases are processed by Google Play or the Apple App Store. We do not receive your payment card details. The app checks with the store to confirm your Premium access.</p>
+        <p>The app may ask you to rate it using the store&rsquo;s own review prompt, and the Android version checks Google Play for app updates. Google and Apple may give us sales and download reports, as well as crash and performance reports according to your device and account settings. Their own privacy policies apply to their services. Links to other apps or websites open outside this app and are covered by their own policies.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Permissions and Your Choices</h2>
+        <ul>
+          <li><strong>Screen capture or screen broadcast:</strong> reads on-screen content so it can be translated.</li>
+          <li><strong>Display over other apps (Android):</strong> shows the floating translate button and translation results over other applications.</li>
+          <li><strong>Notifications (Android):</strong> supports the notification shown while screen capture is active.</li>
+          <li><strong>Camera:</strong> used for Live Camera.</li>
+          <li><strong>Photos or storage:</strong> used to save translated images when you ask.</li>
+          <li><strong>Microphone:</strong> the app does not record, store, or use audio. A microphone permission may be listed because of the camera component the app uses.</li>
+        </ul>
+        <p>You can decline these permissions, or change those listed in your device settings at any time. Features that depend on a permission will not work without it.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Data Collection, Sharing, and Deletion</h2>
+        <p>We do not run servers that collect data from the app, and we do not sell your personal information. The app includes no advertising and no analytics tools of our own. The information ML Kit sends to Google and the information handled by app stores are described above.</p>
+        <p>Because your history and settings are on your device, you control them: delete history entries in the app, or uninstall the app to remove its data from your device. Delete saved images and backups through your device or backup service. If you email us, we receive your email address and message and use them to respond. You can ask us to delete that correspondence.</p>
+      </section>
+
+      <section class="legal-section">
+        <h2>Changes to This Policy</h2>
+        <p>If this policy changes, we will post the updated version on this page with a new effective date.</p>
       </section>
 
       <section class="legal-section">
