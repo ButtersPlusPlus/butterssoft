@@ -585,6 +585,21 @@ img { display: block; max-width: 100%; }
   border: 0;
 }
 
+/* Portrait videos (YouTube Shorts), side by side */
+.portrait-video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.portrait-video-grid iframe {
+  width: min(100%, 320px);
+  height: auto;
+  aspect-ratio: 9 / 16;
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+}
+
 .screenshots-header {
   display: flex;
   align-items: center;
